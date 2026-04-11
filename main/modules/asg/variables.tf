@@ -1,0 +1,11 @@
+variable "name" {}
+variable "ami_id" {}
+variable "instance_type" {}
+variable "iam_instance_profile" {}
+variable "ec2_sg_id" {}
+variable "subnets" {}
+variable "target_group_arn" {}
+variable "desired_capacity" {}
+variable "min_size" {}
+variable "max_size" {}
+variable "user_data_base64" {}
