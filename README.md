@@ -31,7 +31,7 @@ TerraformによるAWSインフラの自動構築
         └─ cloudwatch/ # 監視・アラート設定
 
 【構成ファイル】
-main.tf      リソース構築のメインロジック / モジュールの呼び出し定義
+main.tf       リソース構築のメインロジック / モジュールの呼び出し定義
 backend.tf    Terraformの状態（State）をS3/DynamoDBで管理するための設定
 variables.tf  環境に依存する設定値（変数）の定義
 output.tf     実行結果の表示、親モジュールへの値の連携
