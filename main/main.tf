@@ -82,5 +82,7 @@ module "cloudwatch" {
   source          = "./modules/cloudwatch"
   alb_arn_suffix  = module.alb.alb_arn_suffix
   asg_name        = module.asg.asg_name
+  scale_out_policy_arn = module.asg.scale_out_policy_arn
+  scale_in_policy_arn  = module.asg.scale_in_policy_arn
 }
 
