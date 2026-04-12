@@ -16,6 +16,7 @@ TerraformによるAWSインフラの自動構築
 - OS: Amazon Linux
 
 ##ディレクトリ構成
+```text
 ├─ .github/workflows   # CI/CD設定（GitHub Actionsによる自動実行）
 ├─ bootstrap/          # 初期セットアップ（Backend用のS3/DynamoDB構築）
 └─ main/               # メイン環境構築
@@ -37,9 +38,11 @@ output.tf     実行結果の表示、親モジュールへの値の連携
 alarms_alb.tf ALBの死活監視等に関するアラート定義
 alarms_asg.tf スケーリングイベントやインスタンス異常に関するアラート定義
 log_groups.tf CloudWatch Logs のロググループ一括管理
+```
 
 ## 環境設計
 ※基本的にAWSの無料枠内で構成可能な範囲で対応する。
+
 
 
 
