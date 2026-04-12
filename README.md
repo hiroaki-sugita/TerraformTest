@@ -5,7 +5,7 @@ Terraformテスト用リポジトリ
 TerraformによるAWSインフラの自動構築
 
 ## システム構成図
-<img width="1179" height="857" alt="構成図150" src="https://github.com/user-attachments/assets/3e4dba8d-b9e9-4ebf-9ffe-7d1fae73e7a4" />
+<img width="1179" height="857" alt="構成図 150_2" src="https://github.com/user-attachments/assets/48b401f0-8ee8-4320-90c7-bf1e67a4f2b1" />
 
 ## Terraform 実行フロー
 <img width="992" height="932" alt="terraform150" src="https://github.com/user-attachments/assets/a4e0f587-b688-4f9a-b902-f0499e8f63e7" />
