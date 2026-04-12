@@ -12,6 +12,10 @@ Terraformテスト用リポジトリ
 - .github/workflows/terraform.yml
 - .github/workflows/terraform-destory.yml
 
+## Terraform フロー図
+<img width="661" height="621" alt="Terraform drawio" src="https://github.com/user-attachments/assets/e6366ae6-b14e-4a17-8c46-d8680184a782" />
+
+
 ## 構成図
 ```mermaid
 
