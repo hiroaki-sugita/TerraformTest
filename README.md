@@ -15,36 +15,5 @@ Terraformテスト用リポジトリ
 ## Terraform フロー図
 <img width="661" height="621" alt="Terraform drawio" src="https://github.com/user-attachments/assets/e6366ae6-b14e-4a17-8c46-d8680184a782" />
 
-
 ## 構成図
-```mermaid
-
-flowchart TD
-
-    subgraph VPC["VPC 10.0.0.0/16"]
-        
-        subgraph PublicSubnet1a["Public Subnet 1a (10.0.1.0/24)"]
-            EC2a["EC2 (WordPress) - 1a"]
-        end
-
-        subgraph PublicSubnet1c["Public Subnet 1c (10.0.3.0/24)"]
-            EC2c["EC2 (WordPress) - 1c"]
-        end
-
-        subgraph PrivateSubnet1a["Private Subnet 1a (10.0.2.0/24)"]
-            RDS["RDS MySQL"]
-        end
-
-        subgraph PrivateSubnet1c["Private Subnet 1c (10.0.4.0/24)"]
-        end
-
-        ALB["ALB (HTTP:80)"]
-    end
-
-    Internet(("Internet"))
-
-    Internet --> ALB
-    ALB --> EC2a
-    ALB --> EC2c
-    EC2a --> RDS
-    EC2c --> RDS
+<img width="786" height="571" alt="構成図 drawio" src="https://github.com/user-attachments/assets/85a2edec-b268-4b85-8d62-839975700681" />
